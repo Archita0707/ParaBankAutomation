@@ -1,22 +1,23 @@
-# ParaBank Automation Framework
+ParaBank Automation Framework
+An automated test suite built for the ParaBank banking application using Java, Selenium WebDriver, TestNG, and the Page Object Model (POM) design pattern. The framework incorporates data-driven testing, Extent Reports for logging, and automated failure screenshot capture.
 
-An automated test suite built for the [ParaBank](https://parabank.parasoft.com/) banking application using Java, Selenium WebDriver, TestNG, and the Page Object Model (POM) design pattern. The framework incorporates data-driven testing, Extent Reports for logging, and automated failure screenshot capture.
+🚀 Tech Stack & Tools
+Language: Java
 
-## 🚀 Tech Stack & Tools
+Automation Tool: Selenium WebDriver
 
-* **Language:** Java
-* **Automation Tool:** Selenium WebDriver
-* **Test Framework:** TestNG
-* **Build Tool:** Maven
-* **Design Pattern:** Page Object Model (POM)
-* **Reporting:** ExtentReports
-* **Utilities:** Apache POI (for Excel data-driven testing)
+Test Framework: TestNG
 
----
+Build Tool: Maven
 
-## 📁 Project Structure
+Design Pattern: Page Object Model (POM)
 
-```text
+Reporting: ExtentReports
+
+Utilities: Apache POI (for Excel data-driven testing)
+
+📁 Project Structure
+Plaintext
 ParaBankAutomation/
 │
 ├── src/
@@ -38,7 +39,6 @@ ParaBankAutomation/
 ├── .gitignore
 ├── pom.xml                        # Maven dependencies and build plugins
 └── testng.xml                     # TestNG suite configuration file
-
 ⚙️ Key Features
 Page Object Model (POM): Ensures clean separation between test scripts and page locators for high maintainability.
 
